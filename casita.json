@@ -1,15 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "casita",
+  "wake_word": "Casita",
   "author": "Bill",
-  "website": "",
-  "model": "https://raw.githubusercontent.com/BG-GTHUB/casita-wake-word/main/casita.tflite",
+  "website": "https://github.com/BG-GTHUB/casita-wake-word",
+  "model": "casita.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.85,
-    "sliding_window_size": 5,
     "feature_step_size": 10,
+    "sliding_window_size": 5,
     "tensor_arena_size": 26000,
     "minimum_esphome_version": "2024.7.0"
   }
