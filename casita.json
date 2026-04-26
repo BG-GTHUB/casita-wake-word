@@ -1,0 +1,7 @@
+{
+  "type": "micro",
+  "wake_word": "casita",
+  "author": "Bill",
+  "website": "",
+  "model": "https://raw.githubusercontent.com/BG-GTHUB/casita-wake-word/main/casita.tflite"
+}
